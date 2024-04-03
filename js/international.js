@@ -14,7 +14,7 @@ const searchExtract = searchInput.addEventListener("input", (e) => {
 try {
   const clickListener = searchSubmit.addEventListener("click", () => {
     const searchValueFinal = searchValue.toLowerCase(); 
-    const potentialRoutes = ["krabi", "singapore", "bangkok", "himachal", "uttar pradesh", "odisha", "hyderabad", "rajasthan", "gujarat", "kashmir", "arunachal pradesh", "meghalaya", "andaman"]; 
+    const potentialRoutes = ["krabi", "singapore", "bangkok"]; 
   
     if (potentialRoutes.includes(searchValueFinal)) {
       window.location.href = `../shras-domestic.html?state=${searchValueFinal}`;
