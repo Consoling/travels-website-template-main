@@ -647,6 +647,66 @@ window.onload = () => {
       }
       break;
 
+      case  "singapore":
+        document.title = "visit Singapore";
+
+        let caro5009=[ 'url(/images/Singapore Flyer.jpg)', 'url(/images/sing Chinatown.jpg)', 'url(/images/sing Gardens by the Bay.jpg)', 'url(/images/sing Marina Bay Sands.jpg)','url(/images/sing Sentosa Island.jpg)']
+        let i5009 = 0
+        let pic5009= document.querySelectorAll(".box.second");
+
+        pic5009.forEach((element) => {
+            element.style.backgroundImage = caro5009[i5009];
+            i5009++;    
+        });
+
+        paragraph=document.querySelectorAll("p")
+        paragraph[0].textContent="The Singapore Flyer stands as one of the world's tallest observation wheels, offering breathtaking panoramic views of the city's skyline and landmarks. Rising 165 meters above ground, it provides a unique perspective of Singapore's urban landscape and iconic attractions. A symbol of modern engineering and architectural prowess, it attracts visitors from around the globe seeking an unforgettable experience."
+        paragraph[1].textContent="Chinatown in Singapore is a vibrant neighborhood pulsating with rich cultural heritage and bustling markets. Visitors are drawn to its narrow streets lined with traditional shophouses, offering an array of authentic Chinese cuisine, temples, and unique souvenir shops. It's a captivating blend of history, tradition, and modernity in the heart of the city."
+        paragraph[2].textContent="Gardens by the Bay in Singapore is a breathtaking horticultural oasis spanning 101 hectares. It features futuristic Supertrees, towering vertical gardens, and two conservatories showcasing diverse flora from around the world. This iconic attraction seamlessly blends nature with cutting-edge technology, offering visitors a mesmerizing and educational experience."
+        paragraph[3].textContent="Marina Bay Sands in Singapore is an iconic integrated resort renowned for its striking architecture and luxury amenities. It features a towering trio of hotel towers crowned by a magnificent rooftop SkyPark, offering breathtaking panoramic views of the city skyline. The resort also boasts a sprawling casino, world-class shopping mall, and a diverse array of dining and entertainment options."
+        paragraph[4].textContent="Sentosa Island in Singapore is a vibrant resort island renowned for its pristine beaches, thrilling attractions, and lush landscapes. Visitors can indulge in a myriad of activities, from visiting Universal Studios Singapore to relaxing at luxurious beach clubs or exploring the underwater world at S.E.A. Aquarium. With its diverse entertainment options and stunning scenery, Sentosa Island offers an unforgettable escape for travelers of all ages."
+        paragraph[5].textContent="The Cable Car Sky Network in Singapore offers breathtaking aerial views of the cityscape and Sentosa Island, connecting various attractions with ease and comfort. Glide above lush greenery and iconic landmarks for an unforgettable sightseeing experience."
+        paragraph[6].textContent="Scuba of Singapore offers exhilarating underwater adventures, providing enthusiasts with top-notch diving experiences amidst the vibrant marine life of Singapore's waters. Explore hidden treasures beneath the surface with expert guidance and unmatched professionalism."
+        paragraph[7].textContent="Segway of Singapore offers thrilling guided tours, showcasing the city's iconic landmarks on eco-friendly Segway PTs. Explore Singapore's vibrant streets and scenic waterfronts effortlessly with their expertly crafted experiences."
+        paragraph[8].textContent="Experience adrenaline-pumping wakeboarding adventures against Singapore's stunning skyline, with world-class facilities and scenic waterways offering enthusiasts of all levels an unforgettable thrill."
+        paragraph[9].textContent="Singapore, a dynamic city-state in Southeast Asia, is renowned for its vibrant blend of cultures, modern skyline, and lush greenery. From the iconic Marina Bay Sands to the historic neighborhoods of Chinatown and Little India, Singapore offers a captivating mix of old and new. Visitors can explore world-class attractions like Gardens by the Bay and Sentosa Island, or indulge in culinary delights at hawker centers and Michelin-starred restaurants. With its efficient public transportation system and impeccable cleanliness, Singapore is a haven for travelers seeking convenience and luxury alike. Whether you're drawn to its bustling shopping districts, cultural festivals, or tranquil nature reserves, Singapore promises an unforgettable experience for every traveler."
+         
+        let h5010=document.querySelectorAll("h1")
+        h5010[2].textContent="Best of Rajasthan"
+        h5010[3].textContent="Enchanting Rajasthan"
+        h5010[4].textContent="Uttar Pradesh - Rajasthan"
+
+        let h5009=document.querySelectorAll("h3")
+        h5009[0].textContent="Singapore"
+        h5009[1].textConte="Singapore"
+        h5009[2].textContent="Paradise"
+        h5009[3].textContent="Singapore"
+        h5009[4].textContent="Singapore"
+        h5009[5].textContent="Cable Car Sky Network"
+        h5009[6].textContent="Scuba"
+        h5009[7].textContent="Segway"
+        h5009[8].textContent="Wakeboarding"
+        
+              
+     let adv5009=document.querySelectorAll(".para")
+    adv5009[0].src = "/images/sing_CableCarSkyNetwork.jpg";
+    adv5009[1].src = "./images/sing_scuba.jpg";
+    adv5009[2].src = "./images/sing_segway.jpg";
+    adv5009[3].src = "./images/sing_Wakeboarding.jpg";
+
+    var map5009 = document.getElementById("topograph");
+    map5009.src = "./images/sing 3d map of singapore.jpg";
+    map5009.style.height = "400px";            
+     
+    let pics5009 = document.querySelectorAll(".wrapper");
+      let caros5009=['url(/images/bestOfSingapore.jpg)', 'url(/images/enchanting_singapore.jpg)','url(/images/singapore_china.jpg)']
+
+      for (let j = 0; j < pics5009.length; j++) {
+          pics5009[j].style.background = `linear-gradient(#ffffff00, #00000082), ${caros5009[j]} center/cover no-repeat`;
+      }
+break
+
+
     case "gujarat":
       document.title = "visit Gujarat";
       let caro14 = [
@@ -949,6 +1009,67 @@ window.onload = () => {
       }
 
       break;
+
+      
+      case "krabi":
+        document.title = "visit Krabi";
+
+        let caro50011=[ 'url(/images/krabi_Koh_Lanta.jpg)', 'url(/images/krabi_Krabi_Town_Night_Market.jpg)', 'url(/images/krabi_Phi_Phi_Islands.jpg)', 'url(/images/krabi_Railay_Beach.jpg)','url(/images/Krabi_Hot_Springs.jpg)']
+        let i50011 = 0
+        let pic50011= document.querySelectorAll(".box.second");
+
+        pic50011.forEach((element) => {
+            element.style.backgroundImage = caro50011[i50011];
+            i50011++;    
+        });
+
+        paragraph=document.querySelectorAll("p")
+        paragraph[0].textContent="Krabi, home to stunning limestone cliffs and pristine beaches, offers adventure seekers activities like rock climbing and island hopping. Koh Lanta, a serene island nearby, beckons with its laid-back vibe, perfect for snorkeling, diving, and enjoying breathtaking sunsets."
+        paragraph[1].textContent="Krabi Town Night Market is a vibrant hub of local culture and cuisine, offering a sensory delight for tourists. Visitors can explore an array of Thai street food stalls, shop for souvenirs, and immerse themselves in the lively atmosphere of this bustling night market."
+        paragraph[2].textContent="Krabi, nestled on Thailand's Andaman coast, offers breathtaking landscapes and serves as a gateway to the stunning Phi Phi Islands, renowned for their turquoise waters, limestone cliffs, and vibrant marine life, making it a paradise for travelers seeking natural beauty and adventure."
+        paragraph[3].textContent="Krabi's Railay Beach Islands offer a tropical paradise with stunning limestone cliffs, crystal-clear waters, and pristine beaches, attracting tourists for its renowned rock climbing spots and tranquil ambiance."
+        paragraph[4].textContent="Explore the natural wonder of Krabi Hot Springs Islands, where soothing thermal pools amidst picturesque landscapes offer a rejuvenating escape for tourists seeking relaxation and tranquility."
+        paragraph[5].textContent="Krabi Island Hopping offers visitors a breathtaking adventure, exploring pristine beaches, limestone cliffs, and hidden lagoons scattered across Thailand's Andaman Sea. Dive into crystal-clear waters and discover the captivating beauty of this tropical paradise."
+        paragraph[6].textContent="Krabi offers thrilling opportunities for scuba diving and snorkeling, boasting vibrant coral reefs and diverse marine life. Explore the crystal-clear waters of the Andaman Sea, where underwater wonders await adventurers of all levels. With its stunning landscapes above and below the surface, Krabi promises unforgettable aquatic experiences for tourists seeking adventure and natural beauty."
+        paragraph[7].textContent="Explore the lush jungles and towering limestone cliffs of Krabi through exhilarating trekking and hiking adventures. Traverse scenic trails, hidden waterfalls, and panoramic viewpoints while immersing yourself in the natural beauty of southern Thailand. Krabi offers a thrilling experience for outdoor enthusiasts seeking unforgettable encounters with nature."
+        paragraph[8].textContent="Explore the exhilarating Krabi White Water Rafting experience, where adventurers navigate through thrilling rapids amidst stunning limestone cliffs and lush jungles, offering an unforgettable adventure in the heart of Thailand's natural beauty."
+        paragraph[9].textContent="Krabi, a coastal province in southern Thailand, is a tropical paradise known for its stunning limestone cliffs, crystal-clear waters, and pristine beaches. Popular activities include island hopping to spots like Phi Phi Islands and Railay Beach, where visitors can indulge in snorkeling, rock climbing, and kayaking. The province is also home to lush jungles and natural attractions such as the Emerald Pool and Thung Teao Forest Natural Park. With its vibrant local culture, delectable cuisine, and plethora of outdoor adventures, Krabi offers an unforgettable experience for tourists seeking relaxation and adventure in equal measure."
+         
+        let h50009=document.querySelectorAll("h1")
+        h50009[2].textContent="Best of Rajasthan"
+        h50009[3].textContent="Enchanting Rajasthan"
+        h50009[4].textContent="Uttar Pradesh - Rajasthan"
+
+        let h50011=document.querySelectorAll("h3")
+        h50011[0].textContent="Krabi"
+        h50011[1].textConte="Krabi"
+        h50011[2].textContent="Paradise"
+        h50011[3].textContent="Krabi"
+        h50011[4].textContent="Krabi"
+        h50011[5].textContent="Island Hopping"
+        h50011[6].textContent="Scuba Diving and Snorkeling"
+        h50011[7].textContent="Trekking and Hiking"
+        h50011[8].textContent="White Water Rafting"
+        
+              
+     let adv50011=document.querySelectorAll(".para")
+    adv50011[0].src = "/images/krabi_Island_Hopping.jpg";
+    adv50011[1].src = "./images/krabi_Scuba_Diving_and_Snorkeling.jpg";
+    adv50011[2].src = "./images/krabi_Trekking_and_Hiking.jpg";
+    adv50011[3].src = "./images/karbi_White_Water_Rafting.jpg";
+
+    var map50011 = document.getElementById("topograph");
+    map50011.src = "./images/krabi_3d_map.jpg";
+    map50011.style.height = "400px";            
+     
+    let pics50011 = document.querySelectorAll(".wrapper");
+      let caros50011=['url(/images/besOfKrabi.jpg)', 'url(/images/enchanting_krabi.jpg)','url(/images/krabi_Thailand_Malaysia.jpg)']
+
+      for (let j = 0; j < pics50011.length; j++) {
+          pics50011[j].style.background = `linear-gradient(#ffffff00, #00000082), ${caros50011[j]} center/cover no-repeat`;
+      }
+
+      break
 
     case "sikkim":
       document.title = "visit Sikkim";
